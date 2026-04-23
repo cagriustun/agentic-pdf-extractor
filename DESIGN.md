@@ -2,6 +2,7 @@
 
 # Proje Klasör Yapısı
 
+```text
 agentic-pdf-extractor/
 │
 ├── data/                   # Test edilecek PDF dosyaları
@@ -25,6 +26,7 @@ agentic-pdf-extractor/
 ├── .env                    # API anahtarları ve configler (OpenAI API Key vb.)
 ├── main.py                 # CLI arayüzü ve giriş noktası
 └── README.md               # Kurulum ve çalıştırma talimatları
+```
 
 # Proje Özeti
 
