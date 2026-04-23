@@ -96,4 +96,3 @@ PDF'ler fitz ile işlenir. CHUNK_SIZE=1000 ve CHUNK_OVERLAP=200 değerleri, meti
 4. Bellek (Memory) Yönetimi
 
 LangGraph checkpointer yapısı kullanılarak her thread_id için özel bir hafıza alanı oluşturulmuştur. Bu sayede LLM, önceki mesajları takip ederek bağlamdan kopmadan cevap verebilir.
->>>>>>> 1d4cb42 (Initial commit: Agentic PDF Extraction System MVP)
