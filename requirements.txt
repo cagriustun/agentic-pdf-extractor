@@ -1,0 +1,15 @@
+# Temel LLM ve Ajan Framework
+openai>=1.14.0
+langgraph>=0.0.26
+pydantic>=2.6.3
+
+# Vektör Veritabanı ve Belge İşleme
+chromadb>=0.4.24
+PyMuPDF>=1.23.22
+
+# Çevresel Değişkenler ve CLI Araçları
+python-dotenv>=1.0.1
+rich>=13.7.1
+
+# Test Araçları
+pytest>=8.0.0

@@ -1,0 +1,22 @@
+# Sanal Ortam (Virtual Environment)
+venv/
+env/
+ENV/
+
+# Vektör Veritabanı Kalıcı Dosyaları (ChromaDB)
+.chroma/
+chroma_db/
+
+# Python Ön Bellek ve Derlenmiş Dosyalar
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Test Ön Belleği
+.pytest_cache/
+
+# IDE ve İşletim Sistemi Dosyaları
+.vscode/
+.idea/
+.DS_Store

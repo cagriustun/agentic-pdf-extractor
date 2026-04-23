@@ -1,0 +1,143 @@
+(venv) PS D:\WORK\agentic-pdf-extractor> python main.py
+───────────────────────────── 🤖 Agentic PDF Extractor - İnteraktif Mod ──────────────────────────────
+💡 Çıkmak için '/q' yazın.
+💡 PDF seçmek ve değiştirmek için '/pdf' yazın.
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Sen: /pdf
+
+📂 Mevcut PDF Dosyaları:
+  1) Agentic Bilgi Çıkarımı_Case Çalışması.pdf
+  2) diyet_listesi.pdf
+  3) Çağrı Üstün - Kıdemli Yazılım Mühendisi - CV.pdf
+
+Lütfen bir numara seçin (İptal için 'q'): 1
+
+📄 PDF İşlemi Başlıyor: data\Agentic Bilgi Çıkarımı_Case Çalışması.pdf
+✅ [DocumentProcessor]: 'data\Agentic Bilgi Çıkarımı_Case Çalışması.pdf' başarıyla okundu. Toplam 4 sayfa işlendi.
+✂️ [DocumentProcessor]: Belgeler toplam 9 parçaya (chunk) bölündü.
+🗄️ [VectorStore]: 'agentic_pdf_collection' koleksiyonu başarıyla yüklendi/oluşturuldu.
+🗑️ [VectorStore]: Eski veriler temizlendi, yeni PDF için alan açıldı.
+📥 [VectorStore]: 9 adet belge parçası veritabanına eklendi.
+✅ PDF başarıyla vektör veritabanına işlendi.
+
+Sen: Bu belgenin ana konusu ve amacı nedir?
+
+Sistem düşünüyor ve adımları planlıyor...
+🚀 [Graph]: Ajan iş akışı başlatılıyor...
+----------------------------------------
+🔍 [Retriever]: Vektör veritabanında semantik arama yapılıyor...
+🗄️ [VectorStore]: 'agentic_pdf_collection' koleksiyonu başarıyla yüklendi/oluşturuldu.
+🔍 [VectorStore]: 'Bu belgenin ana konusu ve amacı nedir?' için arama yapılıyor (Getirilecek Parça: 4)...
+   ↳ Başarılı: İlgili parçalar bulundu.
+✍️ [Generator]: Bağlam ve sohbet geçmişi sentezleniyor...
+⚖️ [Validator]: Üretilen taslak cevap doğrulanıyor (Halüsinasyon Testi)...
+   ↳ Sonuç: Geçerli (Sebep: Üretilen cevap, belgenin ana konusu ve amacını doğru bir şekilde özetlemektedir ve verilen bağlama uygun olarak bilgi çıkarımı sisteminin tasarlanması ve geliştirilmesi üzerine yoğunlaşmaktadır.)
+✅ [Graph]: Cevap doğrulandı. Süreç tamamlanıyor.
+
+
+╭───────────────────────────────────────── 🎯 Sistem Yanıtı ─────────────────────────────────────────╮
+│ Bu belgenin ana konusu, uzun ve çok-modlu belgelerden (PDF, rapor, akademik makale) otomatik bilgi │
+│ çıkarımı yapabilen bir agentic bilgi çıkarımı sistemi tasarlamak ve prototipini geliştirmektir.    │
+│ Amaç, bu sistemin mimari tasarımını oluşturmak, yazılım geliştirme sürecini gerçekleştirmek ve bu  │
+│ süreçte belirli gereksinimlere ve teknik kısıtlamalara uygun bir çözüm sunmaktır. Belge, yazılım   │
+│ geliştiricilere yönelik bir ödev olarak hazırlanmış olup, sistemin mimari tasarımı, kod kalitesi   │
+│ ve sunum gibi kriterlere göre değerlendirilecektir.                                                │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+Sen: Belgede kod kalitesi hakkında ne söyleniyor?
+
+Sistem düşünüyor ve adımları planlıyor...
+🚀 [Graph]: Ajan iş akışı başlatılıyor...
+----------------------------------------
+🔍 [Retriever]: Vektör veritabanında semantik arama yapılıyor...
+🗄️ [VectorStore]: 'agentic_pdf_collection' koleksiyonu başarıyla yüklendi/oluşturuldu.
+🔍 [VectorStore]: 'Belgede kod kalitesi hakkında ne söyleniyor?' için arama yapılıyor (Getirilecek Parça: 4)...
+   ↳ Başarılı: İlgili parçalar bulundu.
+✍️ [Generator]: Bağlam ve sohbet geçmişi sentezleniyor...
+⚖️ [Validator]: Üretilen taslak cevap doğrulanıyor (Halüsinasyon Testi)...
+   ↳ Sonuç: Geçerli (Sebep: Üretilen cevap, belgede kod kalitesi ile ilgili belirtilen beklentileri doğru bir şekilde aktarmakta ve %25'lik değerlendirme oranını da içermekte.)
+✅ [Graph]: Cevap doğrulandı. Süreç tamamlanıyor.
+
+
+╭───────────────────────────────────────── 🎯 Sistem Yanıtı ─────────────────────────────────────────╮
+│ Belgede kod kalitesi ile ilgili olarak aşağıdaki beklentiler belirtilmiştir:                       │
+│                                                                                                    │
+│  • Modüler yapı: Her bileşenin (preprocessing, retrieval, agent, validator) ayrı modüllerde yer    │
+│    alması.                                                                                         │
+│  • Type hints ve docstring kullanımı.                                                              │
+│  • Proje için bir requirements.txt veya pyproject.toml dosyasının bulunması.                       │
+│  • README dosyası: Kurulum ve çalıştırma adımlarının açık bir şekilde belirtilmesi.                │
+│  • En az 3 birim testi (pytest) yapılması.                                                         │
+│                                                                                                    │
+│ Kod kalitesinin değerlendirilmesi, toplam puanın %25'ini oluşturmaktadır.                          │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+Sen: Belgenin hiyerarşik ağacını çıkarır mısın?
+
+Sistem düşünüyor ve adımları planlıyor...
+🚀 [Graph]: Ajan iş akışı başlatılıyor...
+----------------------------------------
+✅ [DocumentProcessor]: 'data\Agentic Bilgi Çıkarımı_Case Çalışması.pdf' başarıyla okundu. Toplam 4 sayfa işlendi.
+
+
+╭───────────────────────────────────────── 🎯 Sistem Yanıtı ─────────────────────────────────────────╮
+│ ✅ JSON dosyası başarıyla oluşturuldu: data\Agentic Bilgi Çıkarımı_Case Çalışması.json             │
+│                                                                                                    │
+│ 📑 YAZILIM GELİŞTİRME ÖDEVİ - Agentic Bilgi Çıkarımı Sistemi                                       │
+│                                                                                                    │
+│ Pozisyon                                                                                           │
+│                                                                                                    │
+│  • Yazılım Geliştirici — Agentic Platform Ekibi: **                                                │
+│  • Süre: 1 Hafta                                                                                   │
+│  • Teslim: GitHub reposu + teknik döküman (PDF veya MD)                                            │
+│  • Değerlendirme: Mimari tasarım (%40) + Kod kalitesi (%40) + Sunum (%20)                          │
+│                                                                                                    │
+│ 1. Arka Plan ve Motivasyon                                                                         │
+│                                                                                                    │
+│  • Otomatik Bilgi Çıkarımı: Uzun ve çok-modlu belgelerden otomatik bilgi çıkarımı, kritik bir      │
+│    ihtiyaçtır.                                                                                     │
+│  • Mevcut Yaklaşımlar: İki temel yönelim: RAG tabanlı sistemler ve ajan tabanlı framework.         │
+│  • Amaç: Adayların her iki paradigmayı anlayarak çalışan bir prototip geliştirme yeteneğinin       │
+│    tespiti.                                                                                        │
+│                                                                                                    │
+│ 2. Görev Tanımı                                                                                    │
+│                                                                                                    │
+│  • Sistem Tasarımı: İki bileşenden oluşan bir sistem tasarımı ve prototip geliştirilmelidir.       │
+│  • 2.1 Mimari Tasarım Dokümanı: Uzun bağlamlı belgeler üzerinde soru-cevap yapabilen bir mimari    │
+│    tasarım hazırlanmalıdır.                                                                        │
+│  • 2.2 Yazılım Geliştirme — Minimum Viable Prototype (MVP): Tasarımınızı destekleyen çalışan bir   │
+│    Python prototipi geliştirin.                                                                    │
+│                                                                                                    │
+│ 3. Teknik Kısıtlamalar ve Beklentiler                                                              │
+│                                                                                                    │
+│  • 3.1 Teknoloji Seçimi: Python 3.10+ ve belirli kütüphanelerin kullanımı.                         │
+│  • 3.2 Kod Kalitesi Beklentileri: Modüler yapı, tip tanımları ve dokümantasyon.                    │
+│                                                                                                    │
+│ 4. Teslim Edilecekler                                                                              │
+│                                                                                                    │
+│  • 1: GitHub Reposu: Public veya erişim paylaşımlı private repo.                                   │
+│  • 2: Mimari Tasarım Dokümanı: README içinde veya ayrı bir DESIGN.md / design.pdf.                 │
+│  • 3: Çalışan MVP Kodu: Zorunlu gereksinimleri karşılayan Python kodu.                             │
+│  • 4: Demo Çıktısı: En az 1 PDF üzerinde 3 örnek soru-cevap.                                       │
+│  • 5: Kısa Teknik Not: Önemli tasarım kararları ve gerekçesi.                                      │
+│                                                                                                    │
+│ 5. Değerlendirme Kriterleri                                                                        │
+│                                                                                                    │
+│  • Mimari Tasarım: Bileşen seçimleri gerekçeli mi, trade-off'lar tartışılmış mı? %40.              │
+│  • Kod Kalitesi: Modülerlik, okunabilirlik, tip tanımları, testler. %25.                           │
+│  • Fonksiyonel Doğruluk: MVP çalışıyor mu, beklenen çıktıları üretiyor mu? %20.                    │
+│  • İletişim & Sunum: Teknik not ve README netliği, kararların açıklanması. %15.                    │
+│                                                                                                    │
+│ 6. Yol Gösterici Notlar                                                                            │
+│                                                                                                    │
+│  • Kapsam Yönetimi: Bütün bonus gereksinimleri yerine getirmek yerine derinlemesine odaklanın.     │
+│  • Tasarım: Koda başlamadan önce mimari dokümanı yazdınız mı?                                      │
+│  • Hata Yönetimi: API başarısız olursa, PDF bozuksa ne olur?                                       │
+│                                                                                                    │
+│ 7. Sorular                                                                                         │
+│                                                                                                    │
+│  • Soru İletişimi: Ödevle ilgili sorular için mülakat koordinatörüne başvurun.                     │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+Sen:
