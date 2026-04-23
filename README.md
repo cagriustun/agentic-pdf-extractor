@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# agentic-pdf-extractor
-=======
 # Agentic PDF Extractor
 
 Bu proje, gelişmiş RAG (Retrieval-Augmented Generation) tekniklerini ve "Agentic" iş akışlarını kullanarak PDF belgelerinden akıllıca bilgi çıkaran, sorgulayan ve doğrulayan interaktif bir yapay zeka asistanıdır. Standart RAG sistemlerinden farkı; kendi kararlarını verebilen, hatalarını denetleyen ve geçmişi hatırlayan bir ajan mimarisine sahip olmasıdır.
